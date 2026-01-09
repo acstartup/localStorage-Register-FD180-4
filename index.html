@@ -7,12 +7,22 @@
     <link href="dist/output.css" rel="stylesheet"> 
 </head>
 <body>
-    <div class="grid place-items-center pt-75">
-        <h1 class="text-md font-bold">localStorage Register</h1>
-        <div class="flex flex-row gap-2 py-2">
-            <a href="/sign-up/index.html" class="text-sm border rounded-md px-2 py-0.25 hover:bg-gray-100">Sign Up</a>
-            <a href="log-in/index.html" class="text-sm border rounded-md px-2 py-0.25 hover:bg-gray-100">Log In</a>
+    <div class="grid place-items-center pt-60">
+        <h1 class="text-md font-bold">localStorage Sign Up</h1>
+        <div class="pt-6 flex flex-col gap-3">
+            <input type="text" id="username" class="border rounded-md w-60 px-2 py-0.5 text-sm" placeholder="Username">
+            <input type="text" id="email" class="border rounded-md w-60 px-2 py-0.5 text-sm" placeholder="Email Address">
+            <input type="text" id="password" class="border rounded-md w-60 px-2 py-0.5 text-sm" placeholder="Password">
         </div>
+        <div class="py-4">
+            <button type="button" id="register" class="border rounded-md text-sm px-2 py-0.25 hover:bg-gray-100">Sign Up</button>
+        </div>
+        <div class="text-xs">
+            <h1>
+                Already have an account? <a href="log-in/index.html" class="font-bold underline">Log In</a>
+            </h1>
+        </div>
+    </div>
     </div>
 </body>
 </html>
