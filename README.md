@@ -66,11 +66,3 @@ Run this after adding new Tailwind classes to your HTML.
 Runs Tailwind in watch mode and starts a live development server.
 The page will auto-reload when you make edits.
 Open http://localhost:8080 to view it in the browser.
-
-## Future Improvements
-- Add password encryption/hashing for security
-- Implement "remember me" functionality
-- Add password strength validation
-- Create a logout button
-- Add user profile page with stored data display
-- Implement password reset functionality
